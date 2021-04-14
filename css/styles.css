@@ -1,0 +1,80 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    background-image: linear-gradient(to right,#a9aeb1, #b494a3, #b4a484);
+
+}
+
+h1, h2, h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+}
+ header p {
+     font-family: 'Courier New', Courier, monospace;
+     color: black;
+ }
+
+
+footer {
+    background-image: linear-gradient(to right,#a9aeb1, #b494a3, #b4a484);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right,#a9aeb1, #b494a3, #b4a484);
+    color: #a89dac;
+    margin-bottom: 0;
+}
+
+
+.album-title{
+    padding: 20 px;
+    font-style: italic;
+    font-family: monospace;
+    font-size:larger;
+    font-weight: bold;
+    
+
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.personnel{
+    padding: 10px;
+    font-size: small;
+    font-style:italic;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer-style{
+    padding: 5px;
+    font-size: smaller;
+    font-style:italic;
+}
+
+.album-embed{
+    padding: 20px;
+}
+
+
+.nav{
+    width: 100%;
+    padding: 30px;
+  
+}
+.nav-link{
+    color: black;
+
+}
+.card{
+    margin-top: 18px;
+    
+}
