@@ -62,7 +62,7 @@ ul{
 }
 
 .footer-style{
-    padding: 5px;
+    padding: 50px;
     font-size: smaller;
     font-style:italic;
 }
@@ -72,6 +72,9 @@ ul{
 
 }
 .card{
-    margin-top: 18px;
-    
+    margin-top: 0;    
+}
+
+.row-content{
+    border-style: none;
 }
