@@ -16,7 +16,7 @@ h1, h2, h3 {
 nav{
     background-image: linear-gradient(to right,#a9aeb1, #b494a3, #b4a484);
      width: 100%;
-    padding: 30px;
+    
  }
 
 
@@ -35,8 +35,8 @@ footer {
 }
 
 
-.album-title{
-    padding: 20 px;
+.card-title{
+    margin-top:20px;
     font-style: italic;
     font-family: monospace;
     font-size:larger;
@@ -46,15 +46,16 @@ footer {
 }
 
 .row-content {
-    padding: 50px 0;
+    padding: 50px;
     border-bottom: 1px ridge;
     min-height: 200px;
 }
 
-.personnel{
-    padding: 10px;
+.card-content{
+    padding: 10 px;
     font-size: small;
     font-style:italic;
+  
 }
 
 ul{
@@ -72,9 +73,18 @@ ul{
 
 }
 .card{
-    margin-top: 0;    
+    margin-top: 0;
+        
 }
 
 .row-content{
     border-style: none;
 }
+#portrait{
+    padding: 50px;
+    border-radius: 50%;
+    transform: scale;
+    max-height: 600px;
+    
+}
+  
