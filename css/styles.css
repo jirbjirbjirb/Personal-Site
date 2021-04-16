@@ -30,7 +30,7 @@ footer {
 .jumbotron {
     padding: 30px;
     background-image: linear-gradient(to right,#a9aeb1, #b494a3, #b4a484);
-    color: #a89dac;
+    
     margin-bottom: 0;
 }
 
@@ -41,10 +41,17 @@ footer {
     font-family: monospace;
     font-size:larger;
     font-weight: bold;
-    
 
 }
 
+.card{
+    background-color: rgb(169, 174, 177, 0);
+    border-style: none;
+}
+
+.bio-card{
+    background-color: rgb(169, 174, 177,0);
+}
 .row-content {
     padding: 50px;
     border-bottom: 1px ridge;
@@ -72,19 +79,15 @@ ul{
     color: black;
 
 }
-.card{
-    margin-top: 0;
-        
-}
+
 
 .row-content{
     border-style: none;
 }
 #portrait{
     padding: 50px;
-    border-radius: 50%;
+    border-radius: 15%;
     transform: scale;
     max-height: 600px;
-    
 }
-  
+    
