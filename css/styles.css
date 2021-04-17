@@ -20,11 +20,11 @@ nav{
  }
 
 
-}
+
 footer {
     background-image: linear-gradient(to right,#a9aeb1, #b494a3, #b4a484);
     padding: 40px;
-    
+    width: 100%;    
 }
 
 .jumbotron {
