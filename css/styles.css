@@ -20,7 +20,6 @@ nav{
  }
 
 
-
 footer {
     background-image: linear-gradient(to right,#a9aeb1, #b494a3, #b4a484);
     padding: 40px;
@@ -28,9 +27,8 @@ footer {
 }
 
 .jumbotron {
-    padding: 30px;
+    padding: 20px;
     background-image: linear-gradient(to right,#a9aeb1, #b494a3, #b4a484);
-    
     margin-bottom: 0;
 }
 
@@ -59,7 +57,7 @@ footer {
 }
 
 .card-content{
-    padding: 10 px;
+    padding: 10px;
     font-size: small;
     font-style:italic;
   
@@ -70,7 +68,7 @@ ul{
 }
 
 .footer-style{
-    padding: 50px;
+    padding: 10px;
     font-size: smaller;
     font-style:italic;
 }
@@ -85,9 +83,33 @@ ul{
     border-style: none;
 }
 #portrait{
-    padding: 50px;
-    border-radius: 15%;
-    transform: scale;
-    max-height: 600px;
+    border-radius: 50%;
+    border-style: outset;
+    border-width: 3vw;
+    border-left-color: #b4a484b8;
+    border-top-color: #b4a484b8;
+    border-right-color: #e9f2f7b8;
+    border-bottom-color: #e9f2f7b8;
+    max-height: 35vw;
 }
-    
+
+.video-embed{
+    border-style: outset;
+    border-width:3vw;
+    border-left-color: #b4a484b8;
+    border-top-color: #b4a484b8;
+    border-right-color: #e9f2f7b8;
+    border-bottom-color: #e9f2f7b8;
+    border-radius: 2rem;
+
+}
+
+.text-light{
+    opacity: 85%;
+
+}
+.about-links{
+    padding: 10px;
+    font-size: small;
+    font-style:italic;
+}
