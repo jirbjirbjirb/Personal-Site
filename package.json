@@ -14,6 +14,8 @@
     "clean": "rimraf dist",
     "imagemin": "imagemin img/* -o dist/img"
   },
+
+
   "author": "Kirby Jayes",
   "license": "ISC",
   "devDependencies": {
@@ -24,6 +26,8 @@
     "rimraf": "^3.0.2",
     "usemin-cli": "^0.6.0"
   },
+
+  
   "dependencies": {
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
