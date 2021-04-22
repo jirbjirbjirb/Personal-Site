@@ -9,14 +9,15 @@
     "lite": "lite-server",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
-
   },
   "author": "Kirby Jayes",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1",
     "onchange": "^7.1.0",
-    "parallelshell": "3.0.1"
+    "parallelshell": "3.0.1",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
