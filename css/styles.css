@@ -1,6 +1,7 @@
 body{
     font-family: "Open Sans", sans-serif;
     background-image: linear-gradient(to right,#a9aeb1, #b494a3, #b4a484);
+    margin: 0px;
 
 }
 
@@ -14,8 +15,9 @@ h1, h2, h3 {
      color: black;
  }
 nav{
+    width: 100%;
     background-image: linear-gradient(to right,#a9aeb1, #b494a3, #b4a484);
-     width: 100%;
+    
     
  }
 
@@ -23,11 +25,12 @@ nav{
 footer {
     background-image: linear-gradient(to right,#a9aeb1, #b494a3, #b4a484);
     padding: 40px;
-    width: 100%;    
+    
+     
 }
 
 .jumbotron {
-    padding: 20px;
+    padding-bottom: 20px;
     background-image: linear-gradient(to right,#a9aeb1, #b494a3, #b4a484);
     margin-bottom: 0;
 }
@@ -112,4 +115,5 @@ ul{
     padding: 10px;
     font-size: small;
     font-style:italic;
+   
 }
