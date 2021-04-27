@@ -2,6 +2,7 @@ body{
     font-family: "Open Sans", sans-serif;
     background-image: linear-gradient(to right,#a9aeb1, #b494a3, #b4a484);
     margin: 0px;
+    padding: 0px;
 
 }
 
@@ -24,7 +25,8 @@ nav{
 
 footer {
     background-image: linear-gradient(to right,#a9aeb1, #b494a3, #b4a484);
-    padding: 40px;
+    padding: 1rem;
+    margin-top: 0px;
     
      
 }
@@ -37,7 +39,7 @@ footer {
 
 
 .card-title{
-    margin-top:20px;
+    margin-top:1rem;
     font-style: italic;
     font-family: monospace;
     font-size:larger;
@@ -54,13 +56,14 @@ footer {
     background-color: rgb(169, 174, 177,0);
 }
 .row-content {
-    padding: 50px;
-    border-bottom: 1px ridge;
-    min-height: 200px;
+    padding-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .card-content{
-    padding: 10px;
+    padding: 3rem;
     font-size: small;
     font-style:italic;
   
@@ -71,7 +74,7 @@ ul{
 }
 
 .footer-style{
-    padding: 10px;
+    padding: 3rem;
     font-size: smaller;
     font-style:italic;
 }
@@ -112,7 +115,7 @@ ul{
 
 }
 .about-links{
-    padding: 10px;
+    padding: 3rem;
     font-size: small;
     font-style:italic;
    
