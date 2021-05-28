@@ -14,20 +14,16 @@
     "clean": "rimraf dist",
     "imagemin": "imagemin img/* -o dist/img"
   },
-
-
   "author": "Kirby Jayes",
   "license": "ISC",
   "devDependencies": {
     "imagemin-cli": "^5.1.0",
     "lite-server": "^2.6.1",
     "onchange": "^7.1.0",
-    "parallelshell": "3.0.1",
+    "parallelshell": "^3.0.1",
     "rimraf": "^3.0.2",
     "usemin-cli": "^0.6.0"
   },
-
-  
   "dependencies": {
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
